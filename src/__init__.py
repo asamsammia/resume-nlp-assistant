@@ -1,1 +1,1 @@
-
+"""Resume NLP Assistant package."""

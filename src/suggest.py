@@ -1,6 +1,8 @@
 import re
 
+
 def keyword_suggestions(job_desc: str, top_n: int = 20):
+    """Very simple frequency-based keyword suggester (demo)."""
     tokens = re.findall(r"[A-Za-z][A-Za-z\-\+\/#0-9\.]{1,}", job_desc)
     freq = {}
     for t in tokens:
